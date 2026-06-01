@@ -76,7 +76,7 @@ h1,h2,h3{letter-spacing:-.02em;line-height:1.05}
 .btn-primary:hover{background:var(--cobalt)}
 .btn-outline{background:transparent;color:var(--ink);border:1px solid var(--ink)}
 .btn-outline:hover{border-color:var(--cobalt);color:var(--cobalt)}
-.btn-cta{height:44px;padding:0 22px;background:var(--ink);color:var(--washi);border-radius:6px;font-size:14px;font-weight:500}
+.btn-cta{display:inline-flex;align-items:center;justify-content:center;height:44px;padding:0 22px;background:var(--ink);color:var(--washi);border-radius:6px;font-size:14px;font-weight:600;white-space:nowrap;line-height:1}
 .btn-cta:hover{background:var(--cobalt)}
 
 .pill{
