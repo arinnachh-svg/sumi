@@ -90,7 +90,7 @@
 
   function resize(){
     var w=mount.clientWidth,h=mount.clientHeight;
-    renderer.setSize(w,h,false);
+    renderer.setSize(w,h);
     camera.aspect=w/h;
     camera.updateProjectionMatrix();
   }
